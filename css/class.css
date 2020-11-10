@@ -1,0 +1,47 @@
+.underline {
+    text-decoration: underline;
+}
+
+.plate {
+    font-size: 75%;
+    padding: 4px 6px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 4px;
+}
+
+.plate-primary{
+    color: white;
+    background-color: rgb(0, 123, 225);
+}
+
+.plate-secondary{
+    color: white;
+    background-color: rgb(108,117,125);
+}
+.plate-success{
+    color: white;
+    background-color: rgb(40,167,69);
+}
+.plate-danger{
+    color: white;
+    background-color: rgb(220,53,69);
+}
+.plate-warning{
+    color: rgb(33,37,41);
+    background-color: rgb(255,193,7);
+}
+.plate-info{
+    color: white;
+    background-color: rgb(23,162,184);
+}
+.plate-light{
+    color: rgb(33,37,41);
+    background-color: rgb(248,249,250);
+}
+.plate-dark{
+    color: white;
+    background-color: rgb(52,58,64);
+}
