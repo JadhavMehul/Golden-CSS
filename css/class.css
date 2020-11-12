@@ -59,23 +59,23 @@
     border: 1px transparent solid;
     padding: 6px 12px;
 }
-.btn-primary {
+.btn-sky {
     color: #fff;
     background-color: rgb(0, 123, 225);
     border-color: rgb(0, 123, 225);
 }
-.btn-primary:hover {
+.btn-sky:hover {
     color: #fff;
     border-color: rgb(0,98,204);
     background-color: rgb(0,98,204);
 }
-.btn-secondary {
+.btn-grass {
     color: #fff;
     background-color: rgb(108,117,125);
     border-color: rgb(108,117,125);
 }
   
-.btn-secondary:hover {
+.btn-grass:hover {
     color: #fff;
     border-color: rgb(84,91,98);
     background-color: rgb(84,91,98);
