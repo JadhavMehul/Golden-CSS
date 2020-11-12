@@ -1,6 +1,7 @@
 .underline {
     text-decoration: underline;
 }
+/*--------------------Plate--------------------*/
 
 .plate {
     font-size: 75%;
@@ -12,16 +13,16 @@
     border-radius: 4px;
 }
 
-.plate-primary{
+.plate-sky{
     color: white;
     background-color: rgb(0, 123, 225);
 }
 
-.plate-secondary{
+.plate-stone{
     color: white;
     background-color: rgb(108,117,125);
 }
-.plate-success{
+.plate-grass{
     color: white;
     background-color: rgb(40,167,69);
 }
@@ -44,4 +45,50 @@
 .plate-dark{
     color: white;
     background-color: rgb(52,58,64);
+}
+
+
+/*--------------------Button--------------------*/
+.btn{
+    color: rgb(33,37,41);
+    background-color: transparent;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px transparent solid;
+    padding: 6px 12px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgb(0, 123, 225);
+    border-color: rgb(0, 123, 225);
+}
+.btn-primary:hover {
+    color: #fff;
+    border-color: rgb(0,98,204);
+    background-color: rgb(0,98,204);
+}
+.btn-secondary {
+    color: #fff;
+    background-color: rgb(108,117,125);
+    border-color: rgb(108,117,125);
+}
+  
+.btn-secondary:hover {
+    color: #fff;
+    border-color: rgb(84,91,98);
+    background-color: rgb(84,91,98);
+}
+
+.btn-success {
+    color: #fff;
+    background-color: rgb(40,167,69);
+    border-color: rgb(40,167,69);
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: rgb(33,136,56);
+    border-color: rgb(33,136,56);
 }
