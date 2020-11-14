@@ -1,6 +1,11 @@
 .underline {
     text-decoration: underline;
 }
+/*--------------------Margin--------------------*/
+.mx-auto{
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
 /*--------------------Plate--------------------*/
 
 .plate {
@@ -52,8 +57,9 @@
     background-color: rgb(52,58,64);
 }
 
-/*--------------------Button(class="btn")--------------------*/
+/*--------------------Button--------------------*/
 .btn{
+    display: inline-block;
     color: rgb(33,37,41);
     background-color: transparent;
     text-align: center;
@@ -181,6 +187,7 @@
 
 .btn-collection .btn{
     position: relative;
+    outline: none;
 }
 .btn-collection .btn:not(:first-child){
     border-top-left-radius: 0px;
@@ -190,4 +197,38 @@
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
 }
-  
+
+/*--------------------Cards--------------------*/
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+.card-body {
+    min-height: 1px;
+    padding: 20px;
+}
+.card-body p{
+    margin-bottom: 20px;
+}
+.card-top-img {
+    flex-shrink: 0;
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+.card-text:last-child {
+    margin-bottom: 0;
+}
+.card-title{
+    margin-bottom: 12px;
+}
