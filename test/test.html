@@ -10,27 +10,102 @@
     <link rel="stylesheet" href="test.css">
 </head>
 <body>
-    <center><h1>This is common tags</h1></center>
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
-    <p>This is paragraph</p>
-    <a href="">This is anchor tag</a><br>
-
-    <center><h1 class="underline">This is common tags with underline</h1></center>
-    <h1 class="underline">Heading 1</h1>
-    <h2 class="underline">Heading 2</h2>
-    <h3 class="underline">Heading 3</h3>
-    <h4 class="underline">Heading 4</h4>
-    <h5 class="underline">Heading 5</h5>
-    <h6 class="underline">Heading 6</h6>
-    <p class="underline">This is paragraph</p>
-    <a href="" class="underline">This is anchor tag</a><br><hr>
 
     <div>
+        <table border="1px">
+            <tr border="1px">
+                <th><h2>Component</h2></th>
+                <th><h2>Layout</h2></th>
+            </tr>
+            
+            <tr>
+                <td><a href="#tags">Common Tags</a></td>
+                <td>Page View</td>
+            </tr>
+            <tr>
+                <td><a href="#underline">Underlines</a></td>
+                <td>Grid</td>
+            </tr>
+            <tr>
+                <td>Plates
+                    <ul>
+                        <li><a href="#plate1">Example Plate</a></li>
+                        <li><a href="#plate2">Text With Plate</a></li>
+                        <li><a href="#plate3">Hover Plate</a></li>
+                        <li><a href="#">Notification Plate</a></li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Buttons
+                    <ul>
+                        <li><a href="#btn1">Example Button</a></li>
+                        <li><a href="#btn2">Transparent Button</a></li>
+                        <li><a href="#btn3">Small Button</a></li>
+                        <li><a href="#btn4">Large Button</a></li>                                
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Button Collections
+                    <ul>
+                        <li><a href="#cbtn1">Example Button Collection</a></li>
+                        <li><a href="#cbtn2">Size of Collection</a></li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Card
+                    <ul>
+                        <li><a href="#card1">Example of Card</a></li>
+                        <li><a href="#card2">Featured Card</a></li>
+                        <li><a href="#card3">Image Card</a></li>
+                        <li><a href="#card4">Pricing Card</a></li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Form
+                    <ul>
+                        <li><a href="#form1">Default Form</a></li>
+                        <li><a href="#form2">Form With Sizing Input</a></li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+        
+        </table>
+    </div><hr>
+
+    <div id="tags">
+        <center><h1>This is common tags</h1></center>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>This is paragraph</p>
+        <a href="">This is anchor tag</a><br>
+    </div><hr>
+
+    <div id="underline">
+        <center><h1 class="underline">This is common tags with underline</h1></center>
+        <h1 class="underline">Heading 1</h1>
+        <h2 class="underline">Heading 2</h2>
+        <h3 class="underline">Heading 3</h3>
+        <h4 class="underline">Heading 4</h4>
+        <h5 class="underline">Heading 5</h5>
+        <h6 class="underline">Heading 6</h6>
+        <p class="underline">This is paragraph</p>
+        <a href="" class="underline">This is anchor tag</a><br><hr>
+    </div>
+
+    <div id="plate1">
         <center><h1>This is text with <span class="plate plate-stone">Plate</span></h1></center><br>
         
             <h1>This is a text <span class="plate plate-stone">Plate</span></h1><br>
@@ -52,7 +127,7 @@
     
     </div><hr>
 
-    <div>
+    <div id="plate2">
         <center><h1>This is Plate</h1></center><br>
         <ul style="display: flex;list-style-type: none;">
             <li style="margin-right: 8px;"><span class="plate plate-sky">Sky Plate</span></li>
@@ -81,409 +156,435 @@
     
     </div><hr>
 
-
-    <center><h1>This is anchor tag with plate (hover it)</h1></center><br>
-    <div style="padding-left: 50px;">
-        <a class="plate plate-sky">Sky Plate</a>
-        <a class="plate plate-stone">Stone Plate</a>
-        <a class="plate plate-grass">Success Plate</a>
-        <a class="plate plate-stop">Stop Plate</a>
-        <a class="plate plate-warning">Warning Plate</a>
-        <a class="plate plate-orange">Orange Plate</a>
-        <a class="plate plate-info">Info Plate</a>
-        <a class="plate plate-light">Light Plate</a>
-        <a class="plate plate-dark">Dark Plate</a>
+    <div id="plate3">
+        <center><h1>This is anchor tag with plate (hover it)</h1></center><br>
+        <div style="padding-left: 50px;">
+            <a class="plate plate-sky">Sky Plate</a>
+            <a class="plate plate-stone">Stone Plate</a>
+            <a class="plate plate-grass">Success Plate</a>
+            <a class="plate plate-stop">Stop Plate</a>
+            <a class="plate plate-warning">Warning Plate</a>
+            <a class="plate plate-orange">Orange Plate</a>
+            <a class="plate plate-info">Info Plate</a>
+            <a class="plate plate-light">Light Plate</a>
+            <a class="plate plate-dark">Dark Plate</a>
+        </div>
+        <div>
+            <pre>
+                <code class="language-html" data-lang="html">
+                    <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-sky"</span><span>&gt;</span>Sky Plate<span class="tag-dark">&lt;/a&gt;</span>
+                    <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-stone"</span><span>&gt;</span>Stone Plate<span class="tag-dark">&lt;/a&gt;</span>
+                    <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-grass"</span><span>&gt;</span>Grass Plate<span class="tag-dark">&lt;/a&gt;</span>
+                    <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-stop"</span><span>&gt;</span>Stop Plate<span class="tag-dark">&lt;/a&gt;</span>
+                    <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-warning"</span><span>&gt;</span>Warning Plate<span class="tag-dark">&lt;/a&gt;</span>
+                    <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-orange"</span><span>&gt;</span>Orange Plate<span class="tag-dark">&lt;/a&gt;</span>
+                    <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-info"</span><span>&gt;</span>Info Plate<span class="tag-dark">&lt;/a&gt;</span>
+                    <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-light"</span><span>&gt;</span>Light Plate<span class="tag-dark">&lt;/a&gt;</span>
+                    <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-dark"</span><span>&gt;</span>Dark Plate<span class="tag-dark">&lt;/a&gt;</span>
+                </code>
+            </pre>
+        </div><hr>
     </div>
-    <div>
-        <pre>
-            <code class="language-html" data-lang="html">
-                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-sky"</span><span>&gt;</span>Sky Plate<span class="tag-dark">&lt;/a&gt;</span>
-                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-stone"</span><span>&gt;</span>Stone Plate<span class="tag-dark">&lt;/a&gt;</span>
-                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-grass"</span><span>&gt;</span>Grass Plate<span class="tag-dark">&lt;/a&gt;</span>
-                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-stop"</span><span>&gt;</span>Stop Plate<span class="tag-dark">&lt;/a&gt;</span>
-                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-warning"</span><span>&gt;</span>Warning Plate<span class="tag-dark">&lt;/a&gt;</span>
-                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-orange"</span><span>&gt;</span>Orange Plate<span class="tag-dark">&lt;/a&gt;</span>
-                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-info"</span><span>&gt;</span>Info Plate<span class="tag-dark">&lt;/a&gt;</span>
-                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-light"</span><span>&gt;</span>Light Plate<span class="tag-dark">&lt;/a&gt;</span>
-                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"plate plate-dark"</span><span>&gt;</span>Dark Plate<span class="tag-dark">&lt;/a&gt;</span>
-            </code>
-        </pre>
-    </div><hr>
 
-    <center><h1>This is button</h1></center><br>
-    <div style="padding-left: 50px;">
-        <button type="button" class="btn btn-sky">Sky Button</button>
-        <button type="button" class="btn btn-stone">Stone Button</button>
-        <button type="button" class="btn btn-grass">Grass Button</button>
-        <button type="button" class="btn btn-stop">Stop Button</button>
-        <button type="button" class="btn btn-warning">Warning Button</button>
-        <button type="button" class="btn btn-orange">Orange Button</button>
-        <button type="button" class="btn btn-info">Info Button</button>
-        <button type="button" class="btn btn-light">Light Button</button>
-        <button type="button" class="btn btn-dark">Dark Button</button>
+    <div id="btn1">
+        <center><h1>This is button</h1></center><br>
+        <div style="padding-left: 50px;">
+            <button type="button" class="btn btn-sky">Sky Button</button>
+            <button type="button" class="btn btn-stone">Stone Button</button>
+            <button type="button" class="btn btn-grass">Grass Button</button>
+            <button type="button" class="btn btn-stop">Stop Button</button>
+            <button type="button" class="btn btn-warning">Warning Button</button>
+            <button type="button" class="btn btn-orange">Orange Button</button>
+            <button type="button" class="btn btn-info">Info Button</button>
+            <button type="button" class="btn btn-light">Light Button</button>
+            <button type="button" class="btn btn-dark">Dark Button</button>
+        </div>
+        <div>
+            <pre>
+                <code class="language-html" data-lang="html">
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Sky Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-stone"</span><span>&gt;</span>Stone Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-grass"</span><span>&gt;</span>Grass Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-stop"</span><span>&gt;</span>Stop Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-warning"</span><span>&gt;</span>Warning Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-orange"</span><span>&gt;</span>Orange Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-info"</span><span>&gt;</span>Info Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-light"</span><span>&gt;</span>Light Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-dark"</span><span>&gt;</span>Dark Button<span class="tag-dark">&lt;/button&gt;</span>
+                </code>
+            </pre>
+        </div><hr>
     </div>
-    <div>
-        <pre>
-            <code class="language-html" data-lang="html">
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Sky Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-stone"</span><span>&gt;</span>Stone Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-grass"</span><span>&gt;</span>Grass Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-stop"</span><span>&gt;</span>Stop Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-warning"</span><span>&gt;</span>Warning Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-orange"</span><span>&gt;</span>Orange Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-info"</span><span>&gt;</span>Info Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-light"</span><span>&gt;</span>Light Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-dark"</span><span>&gt;</span>Dark Button<span class="tag-dark">&lt;/button&gt;</span>
-            </code>
-        </pre>
-    </div><hr>
 
-    <center><h1>This is transparent button</h1></center><br>
-    <div style="padding-left: 50px;">
-        <button type="button" class="btn btn-transparent-sky">Sky Button</button>
-        <button type="button" class="btn btn-transparent-stone">Stone Button</button>
-        <button type="button" class="btn btn-transparent-grass">Grass Button</button>
-        <button type="button" class="btn btn-transparent-stop">Stop Button</button>
-        <button type="button" class="btn btn-transparent-warning">Warning Button</button>
-        <button type="button" class="btn btn-transparent-orange">Orange Button</button>
-        <button type="button" class="btn btn-transparent-info">Info Button</button>
-        <button type="button" class="btn btn-transparent-light">Light Button</button>
-        <button type="button" class="btn btn-transparent-dark">Dark Button</button>
+    <div id="btn2">
+        <center><h1>This is transparent button</h1></center><br>
+        <div style="padding-left: 50px;">
+            <button type="button" class="btn btn-transparent-sky">Sky Button</button>
+            <button type="button" class="btn btn-transparent-stone">Stone Button</button>
+            <button type="button" class="btn btn-transparent-grass">Grass Button</button>
+            <button type="button" class="btn btn-transparent-stop">Stop Button</button>
+            <button type="button" class="btn btn-transparent-warning">Warning Button</button>
+            <button type="button" class="btn btn-transparent-orange">Orange Button</button>
+            <button type="button" class="btn btn-transparent-info">Info Button</button>
+            <button type="button" class="btn btn-transparent-light">Light Button</button>
+            <button type="button" class="btn btn-transparent-dark">Dark Button</button>
+        </div>
+        <div>
+            <pre>
+                <code class="language-html" data-lang="html">
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-sky"</span><span>&gt;</span>Sky Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-stone"</span><span>&gt;</span>Stone Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-grass"</span><span>&gt;</span>Grass Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-stop"</span><span>&gt;</span>Stop Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-warning"</span><span>&gt;</span>Warning Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-orange"</span><span>&gt;</span>Orange Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-info"</span><span>&gt;</span>Info Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-light"</span><span>&gt;</span>Light Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-dark"</span><span>&gt;</span>Dark Button<span class="tag-dark">&lt;/button&gt;</span>
+                </code>
+            </pre>
+        </div><hr>
     </div>
-    <div>
-        <pre>
-            <code class="language-html" data-lang="html">
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-sky"</span><span>&gt;</span>Sky Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-stone"</span><span>&gt;</span>Stone Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-grass"</span><span>&gt;</span>Grass Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-stop"</span><span>&gt;</span>Stop Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-warning"</span><span>&gt;</span>Warning Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-orange"</span><span>&gt;</span>Orange Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-info"</span><span>&gt;</span>Info Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-light"</span><span>&gt;</span>Light Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-transparent-dark"</span><span>&gt;</span>Dark Button<span class="tag-dark">&lt;/button&gt;</span>
-            </code>
-        </pre>
-    </div><hr>
 
-    <center><h1>This is small button</h1></center><br>
-    <div style="padding-left: 50px;">
-        <button type="button" class="btn btn-sky btn-small">Sky Button</button>
-        <button type="button" class="btn btn-stone btn-small">Stone Button</button>
-        <button type="button" class="btn btn-grass btn-small">Grass Button</button>
-        <button type="button" class="btn btn-stop btn-small">Stop Button</button>
-        <button type="button" class="btn btn-warning btn-small">Warning Button</button>
-        <button type="button" class="btn btn-orange btn-small">Orange Button</button>
-        <button type="button" class="btn btn-info btn-small">Info Button</button>
-        <button type="button" class="btn btn-light btn-small">Light Button</button>
-        <button type="button" class="btn btn-dark btn-small">Dark Button</button>
+    <div id="btn3">
+        <center><h1>This is small button</h1></center><br>
+        <div style="padding-left: 50px;">
+            <button type="button" class="btn btn-sky btn-small">Sky Button</button>
+            <button type="button" class="btn btn-stone btn-small">Stone Button</button>
+            <button type="button" class="btn btn-grass btn-small">Grass Button</button>
+            <button type="button" class="btn btn-stop btn-small">Stop Button</button>
+            <button type="button" class="btn btn-warning btn-small">Warning Button</button>
+            <button type="button" class="btn btn-orange btn-small">Orange Button</button>
+            <button type="button" class="btn btn-info btn-small">Info Button</button>
+            <button type="button" class="btn btn-light btn-small">Light Button</button>
+            <button type="button" class="btn btn-dark btn-small">Dark Button</button>
+        </div>
+        <div>
+            <pre>
+                <code class="language-html" data-lang="html">
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky btn-small"</span><span>&gt;</span>Sky Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-stone btn-small"</span><span>&gt;</span>Stone Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-grass btn-small"</span><span>&gt;</span>Grass Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-stop btn-small"</span><span>&gt;</span>Stop Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-warning btn-small"</span><span>&gt;</span>Warning Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-orange btn-small"</span><span>&gt;</span>Orange Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-info btn-small"</span><span>&gt;</span>Info Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-light btn-small"</span><span>&gt;</span>Light Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-dark btn-small"</span><span>&gt;</span>Dark Button<span class="tag-dark">&lt;/button&gt;</span>
+                </code>
+            </pre>
+        </div><hr>
     </div>
-    <div>
-        <pre>
-            <code class="language-html" data-lang="html">
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky btn-small"</span><span>&gt;</span>Sky Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-stone btn-small"</span><span>&gt;</span>Stone Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-grass btn-small"</span><span>&gt;</span>Grass Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-stop btn-small"</span><span>&gt;</span>Stop Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-warning btn-small"</span><span>&gt;</span>Warning Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-orange btn-small"</span><span>&gt;</span>Orange Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-info btn-small"</span><span>&gt;</span>Info Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-light btn-small"</span><span>&gt;</span>Light Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-dark btn-small"</span><span>&gt;</span>Dark Button<span class="tag-dark">&lt;/button&gt;</span>
-            </code>
-        </pre>
-    </div><hr>
 
-    <center><h1>This is large button</h1></center><br>
-    <div style="padding-left: 50px;">
-        <button type="button" class="btn btn-sky btn-large">Sky Button</button>
-        <button type="button" class="btn btn-stone btn-large">Stone Button</button>
-        <button type="button" class="btn btn-grass btn-large">Grass Button</button>
-        <button type="button" class="btn btn-stop btn-large">Stop Button</button>
+    <div id="btn4">
+        <center><h1>This is large button</h1></center><br>
+        <div style="padding-left: 50px;">
+            <button type="button" class="btn btn-sky btn-large">Sky Button</button>
+            <button type="button" class="btn btn-stone btn-large">Stone Button</button>
+            <button type="button" class="btn btn-grass btn-large">Grass Button</button>
+            <button type="button" class="btn btn-stop btn-large">Stop Button</button>
+        </div>
+        <div>
+            <pre>
+                <code class="language-html" data-lang="html">
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky btn-large"</span><span>&gt;</span>Sky Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-stone btn-large"</span><span>&gt;</span>Stone Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-grass btn-large"</span><span>&gt;</span>Grass Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-stop btn-large"</span><span>&gt;</span>Stop Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-warning btn-large"</span><span>&gt;</span>Warning Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-orange btn-large"</span><span>&gt;</span>Orange Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-info btn-large"</span><span>&gt;</span>Info Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-light btn-large"</span><span>&gt;</span>Light Button<span class="tag-dark">&lt;/button&gt;</span>
+                    <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-dark btn-large"</span><span>&gt;</span>Dark Button<span class="tag-dark">&lt;/button&gt;</span>
+                </code>
+            </pre>
+        </div><hr>
     </div>
-    <div>
-        <pre>
-            <code class="language-html" data-lang="html">
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky btn-large"</span><span>&gt;</span>Sky Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-stone btn-large"</span><span>&gt;</span>Stone Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-grass btn-large"</span><span>&gt;</span>Grass Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-stop btn-large"</span><span>&gt;</span>Stop Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-warning btn-large"</span><span>&gt;</span>Warning Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-orange btn-large"</span><span>&gt;</span>Orange Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-info btn-large"</span><span>&gt;</span>Info Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-light btn-large"</span><span>&gt;</span>Light Button<span class="tag-dark">&lt;/button&gt;</span>
-                <span class="tag-dark">&lt;button</span> <span class="tag-light">class=</span><span class="text">"btn btn-dark btn-large"</span><span>&gt;</span>Dark Button<span class="tag-dark">&lt;/button&gt;</span>
-            </code>
-        </pre>
-    </div><hr>
-
     
-    <center><h1>This is collection button</h1></center><br>
-    <div style="padding-left: 50px;">
-        <div class="btn-collection" role="group">
-            <button type="button" class="btn btn-sky">First</button>
-            <button type="button" class="btn btn-sky">Center</button>
-            <button type="button" class="btn btn-sky">Last</button>
-        </div>
-        <div>
-            <pre>
-                <code class="language-html" data-lang="html">
-                    <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"btn-collection"</span><span>&gt;</span>
-                        <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>First<span class="tag-dark">&lt;/button&gt;</span>
-                        <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Center<span class="tag-dark">&lt;/button&gt;</span>
-                        <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Last<span class="tag-dark">&lt;/button&gt;</span>
-                    <span class="tag-dark">&lt;/div</span><span>&gt;</span>
-                </code>
-            </pre>
-        </div>
-    </div><hr>
-
-    <center><h1>This is collection of multiple button</h1></center><br>
-    <div style="padding-left: 50px;">
-        <div class="btn-collection" role="group">
-            <button type="button" class="btn btn-sky">First</button>
-            <button type="button" class="btn btn-sky">Center 1</button>
-            <button type="button" class="btn btn-sky">Center 2</button>
-            <button type="button" class="btn btn-sky">Last</button>
-        </div>
-        <div>
-            <pre>
-                <code class="language-html" data-lang="html">
-                    <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"btn-collection"</span><span>&gt;</span>
-                        <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>First<span class="tag-dark">&lt;/button&gt;</span>
-                        <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Center 1<span class="tag-dark">&lt;/button&gt;</span>
-                        <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Center 2<span class="tag-dark">&lt;/button&gt;</span>
-                        <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Last<span class="tag-dark">&lt;/button&gt;</span>
-                    <span class="tag-dark">&lt;/div</span><span>&gt;</span>
-                </code>
-            </pre>
-        </div>
-    </div><hr>
-
-    <center><h1>This is multiple sized button</h1></center><br>
-    <div style="padding-left: 50px;">
-        <div class="btn-collection" role="group">
-            <button type="button" class="btn btn-sky btn-large">First</button>
-            <button type="button" class="btn btn-sky btn-large">Center</button>
-            <button type="button" class="btn btn-sky btn-large">Last</button>
-        </div><br><br>
-        <div class="btn-collection" role="group">
-            <button type="button" class="btn btn-sky">First</button>
-            <button type="button" class="btn btn-sky">Center</button>
-            <button type="button" class="btn btn-sky">Last</button>
-        </div><br><br>
-        <div class="btn-collection" role="group">
-            <button type="button" class="btn btn-sky btn-small">First</button>
-            <button type="button" class="btn btn-sky btn-small">Center</button>
-            <button type="button" class="btn btn-sky btn-small">Last</button>
-        </div>
-        <div>
-            <pre>
-                <code class="language-html" data-lang="html">
-                    <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky btn-large"</span><span>&gt;</span>...<span class="tag-dark">&lt;/button&gt;</span>
-                    <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>...<span class="tag-dark">&lt;/button&gt;</span>
-                    <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky btn-small"</span><span>&gt;</span>...<span class="tag-dark">&lt;/button&gt;</span>
-                </code>
-            </pre>
-        </div>
-    </div><hr>
-
-    <center><h1>This is a Main Card</h1></center><br>
-    <div style="padding: 50px;">
-        <div class="card" style="width: 287px;">
-            <svg class="card-top-img" style="height: 190px;">
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="37%" y="50%" fill="#dee2e6">Test Image</text>
-            </svg>
-            <div class="card-body">
-                <h2 class="card-title">Card Title</h2>
-                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
-                <a href="#" type="button" class="btn btn-sky">Click Here</a>
+    <div id="cbtn1">
+        <center><h1>This is collection button</h1></center><br>
+        <div style="padding-left: 50px;">
+            <div class="btn-collection" role="group">
+                <button type="button" class="btn btn-sky">First</button>
+                <button type="button" class="btn btn-sky">Center</button>
+                <button type="button" class="btn btn-sky">Last</button>
             </div>
-        </div>
-        <div>
-            <pre>
-                <code class="language-html" data-lang="html">
-                    <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card"</span> <span class="tag-light">style=</span><span class="text">"width: 287px"</span><span class="tag-dark">&gt;</span>
-                        <span class="tag-dark">&lt;img</span> <span class="tag-light">src=</span><span class="text">"..."</span> <span class="tag-light">style=</span><span class="text">"card-top-img"</span> <span class="tag-light">alt=</span><span class="text">"..."</span><span class="tag-dark">&gt;</span>
-                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card-body"</span><span class="tag-dark">&gt;</span>
-                            <span class="tag-dark">&lt;h2</span> <span class="tag-light">class=</span><span class="text">"card-title"</span><span class="tag-dark">&gt;</span>Card Title<span class="tag-dark">&lt;/h2&gt;</span>
-                            <span class="tag-dark">&lt;p</span> <span class="tag-light">class=</span><span class="text">"card-text"</span><span class="tag-dark">&gt;</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has<span class="tag-dark">&lt;/p&gt;</span>
-                            <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span class="tag-dark">&gt;</span>Click Here<span class="tag-dark">&lt;/a&gt;</span>
+            <div>
+                <pre>
+                    <code class="language-html" data-lang="html">
+                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"btn-collection"</span><span>&gt;</span>
+                            <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>First<span class="tag-dark">&lt;/button&gt;</span>
+                            <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Center<span class="tag-dark">&lt;/button&gt;</span>
+                            <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Last<span class="tag-dark">&lt;/button&gt;</span>
+                        <span class="tag-dark">&lt;/div</span><span>&gt;</span>
+                    </code>
+                </pre>
+            </div>
+        </div><hr>
+    </div>
+
+    <div>
+        <center><h1>This is collection of multiple button</h1></center><br>
+        <div style="padding-left: 50px;">
+            <div class="btn-collection" role="group">
+                <button type="button" class="btn btn-sky">First</button>
+                <button type="button" class="btn btn-sky">Center 1</button>
+                <button type="button" class="btn btn-sky">Center 2</button>
+                <button type="button" class="btn btn-sky">Last</button>
+            </div>
+            <div>
+                <pre>
+                    <code class="language-html" data-lang="html">
+                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"btn-collection"</span><span>&gt;</span>
+                            <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>First<span class="tag-dark">&lt;/button&gt;</span>
+                            <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Center 1<span class="tag-dark">&lt;/button&gt;</span>
+                            <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Center 2<span class="tag-dark">&lt;/button&gt;</span>
+                            <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Last<span class="tag-dark">&lt;/button&gt;</span>
+                        <span class="tag-dark">&lt;/div</span><span>&gt;</span>
+                    </code>
+                </pre>
+            </div>
+        </div><hr>
+    </div>
+        
+    <div id="cbtn2">
+        <center><h1>This is multiple sized button</h1></center><br>
+        <div style="padding-left: 50px;">
+            <div class="btn-collection" role="group">
+                <button type="button" class="btn btn-sky btn-large">First</button>
+                <button type="button" class="btn btn-sky btn-large">Center</button>
+                <button type="button" class="btn btn-sky btn-large">Last</button>
+            </div><br><br>
+            <div class="btn-collection" role="group">
+                <button type="button" class="btn btn-sky">First</button>
+                <button type="button" class="btn btn-sky">Center</button>
+                <button type="button" class="btn btn-sky">Last</button>
+            </div><br><br>
+            <div class="btn-collection" role="group">
+                <button type="button" class="btn btn-sky btn-small">First</button>
+                <button type="button" class="btn btn-sky btn-small">Center</button>
+                <button type="button" class="btn btn-sky btn-small">Last</button>
+            </div>
+            <div>
+                <pre>
+                    <code class="language-html" data-lang="html">
+                        <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky btn-large"</span><span>&gt;</span>...<span class="tag-dark">&lt;/button&gt;</span>
+                        <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>...<span class="tag-dark">&lt;/button&gt;</span>
+                        <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky btn-small"</span><span>&gt;</span>...<span class="tag-dark">&lt;/button&gt;</span>
+                    </code>
+                </pre>
+            </div>
+        </div><hr>
+    </div>
+
+    <div id="card1">
+        <center><h1>This is a Main Card</h1></center><br>
+        <div style="padding: 50px;">
+            <div class="card" style="width: 287px;">
+                <svg class="card-top-img" style="height: 190px;">
+                    <rect width="100%" height="100%" fill="#868e96"></rect>
+                    <text x="37%" y="50%" fill="#dee2e6">Test Image</text>
+                </svg>
+                <div class="card-body">
+                    <h2 class="card-title">Card Title</h2>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                    <a href="#" type="button" class="btn btn-sky">Click Here</a>
+                </div>
+            </div>
+            <div>
+                <pre>
+                    <code class="language-html" data-lang="html">
+                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card"</span> <span class="tag-light">style=</span><span class="text">"width: 287px"</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;img</span> <span class="tag-light">src=</span><span class="text">"..."</span> <span class="tag-light">style=</span><span class="text">"card-top-img"</span> <span class="tag-light">alt=</span><span class="text">"..."</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card-body"</span><span class="tag-dark">&gt;</span>
+                                <span class="tag-dark">&lt;h2</span> <span class="tag-light">class=</span><span class="text">"card-title"</span><span class="tag-dark">&gt;</span>Card Title<span class="tag-dark">&lt;/h2&gt;</span>
+                                <span class="tag-dark">&lt;p</span> <span class="tag-light">class=</span><span class="text">"card-text"</span><span class="tag-dark">&gt;</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has<span class="tag-dark">&lt;/p&gt;</span>
+                                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span class="tag-dark">&gt;</span>Click Here<span class="tag-dark">&lt;/a&gt;</span>
+                            <span class="tag-dark">&lt;/div&gt;</span>
                         <span class="tag-dark">&lt;/div&gt;</span>
-                    <span class="tag-dark">&lt;/div&gt;</span>
-                </code>
-            </pre>
-        </div>
-    </div><hr>
-
-    <center><h1>This is a Featured Card</h1></center><br>
-    <div style="padding: 50px;">
-        <div class="card" style="width: 287px;">
-            <div class="card-body">
-                <h2 class="card-title">Card Title</h2>
-                <h3 class="card-subtitle mb-2 muted-text">Card Subtitle</h3>
-                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
-                <a href="#" class="card-link">Click Here</a>
-                <a href="#" class="card-link">Click Here</a>
+                    </code>
+                </pre>
             </div>
-        </div>
-        <div>
-            <pre>
-                <code class="language-html" data-lang="html">
-                    <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card"</span> <span class="tag-light">style=</span><span class="text">"width: 287px"</span><span class="tag-dark">&gt;</span>
-                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card-body"</span><span class="tag-dark">&gt;</span>
-                            <span class="tag-dark">&lt;h2</span> <span class="tag-light">class=</span><span class="text">"card-title"</span><span class="tag-dark">&gt;</span>Card Title<span class="tag-dark">&lt;/h2&gt;</span>
-                            <span class="tag-dark">&lt;h3</span> <span class="tag-light">class=</span><span class="text">"card-subtitle mb-2 muted-text"</span><span class="tag-dark">&gt;</span>Card Subtitle<span class="tag-dark">&lt;/h3&gt;</span>
-                            <span class="tag-dark">&lt;p</span> <span class="tag-light">class=</span><span class="text">"card-text"</span><span class="tag-dark">&gt;</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has<span class="tag-dark">&lt;/p&gt;</span>
-                            <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"card-link"</span><span class="tag-dark">&gt;</span>Click Here<span class="tag-dark">&lt;/a&gt;</span>
-                            <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"card-link"</span><span class="tag-dark">&gt;</span>Click Here<span class="tag-dark">&lt;/a&gt;</span>
+        </div><hr>
+    </div>
+
+    <div id="card2">
+        <center><h1>This is a Featured Card</h1></center><br>
+        <div style="padding: 50px;">
+            <div class="card" style="width: 287px;">
+                <div class="card-body">
+                    <h2 class="card-title">Card Title</h2>
+                    <h3 class="card-subtitle mb-2 muted-text">Card Subtitle</h3>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                    <a href="#" class="card-link">Click Here</a>
+                    <a href="#" class="card-link">Click Here</a>
+                </div>
+            </div>
+            <div>
+                <pre>
+                    <code class="language-html" data-lang="html">
+                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card"</span> <span class="tag-light">style=</span><span class="text">"width: 287px"</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card-body"</span><span class="tag-dark">&gt;</span>
+                                <span class="tag-dark">&lt;h2</span> <span class="tag-light">class=</span><span class="text">"card-title"</span><span class="tag-dark">&gt;</span>Card Title<span class="tag-dark">&lt;/h2&gt;</span>
+                                <span class="tag-dark">&lt;h3</span> <span class="tag-light">class=</span><span class="text">"card-subtitle mb-2 muted-text"</span><span class="tag-dark">&gt;</span>Card Subtitle<span class="tag-dark">&lt;/h3&gt;</span>
+                                <span class="tag-dark">&lt;p</span> <span class="tag-light">class=</span><span class="text">"card-text"</span><span class="tag-dark">&gt;</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has<span class="tag-dark">&lt;/p&gt;</span>
+                                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"card-link"</span><span class="tag-dark">&gt;</span>Click Here<span class="tag-dark">&lt;/a&gt;</span>
+                                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">class=</span><span class="text">"card-link"</span><span class="tag-dark">&gt;</span>Click Here<span class="tag-dark">&lt;/a&gt;</span>
+                            <span class="tag-dark">&lt;/div&gt;</span>
                         <span class="tag-dark">&lt;/div&gt;</span>
-                    <span class="tag-dark">&lt;/div&gt;</span>
-                </code>
-            </pre>
-        </div>
-    </div><hr>
-
-    <center><h1>This is a Image Card</h1></center><br>
-    <div style="padding: 50px;">
-        <div class="card" style="width: 287px;">
-            <svg class="card-top-img" style="height: 190px;">
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="37%" y="50%" fill="#dee2e6">Test Image</text>
-            </svg>
-            <div class="card-body">
-                <h2 class="card-title">Card Title</h2>
-                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
-                
+                    </code>
+                </pre>
             </div>
-        </div>
-        <div>
-            <pre>
-                <code class="language-html" data-lang="html">
-                    <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card"</span> <span class="tag-light">style=</span><span class="text">"width: 287px"</span><span class="tag-dark">&gt;</span>
-                        <span class="tag-dark">&lt;img</span> <span class="tag-light">src=</span><span class="text">"..."</span> <span class="tag-light">style=</span><span class="text">"card-top-img"</span> <span class="tag-light">alt=</span><span class="text">"..."</span><span class="tag-dark">&gt;</span>
-                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card-body"</span><span class="tag-dark">&gt;</span>
-                            <span class="tag-dark">&lt;h2</span> <span class="tag-light">class=</span><span class="text">"card-title"</span><span class="tag-dark">&gt;</span>Card Title<span class="tag-dark">&lt;/h2&gt;</span>
-                            <span class="tag-dark">&lt;p</span> <span class="tag-light">class=</span><span class="text">"card-text"</span><span class="tag-dark">&gt;</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has<span class="tag-dark">&lt;/p&gt;</span>
+        </div><hr>
+    </div>
+
+    <div id="card3">
+        <center><h1>This is a Image Card</h1></center><br>
+        <div style="padding: 50px;">
+            <div class="card" style="width: 287px;">
+                <svg class="card-top-img" style="height: 190px;">
+                    <rect width="100%" height="100%" fill="#868e96"></rect>
+                    <text x="37%" y="50%" fill="#dee2e6">Test Image</text>
+                </svg>
+                <div class="card-body">
+                    <h2 class="card-title">Card Title</h2>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                    
+                </div>
+            </div>
+            <div>
+                <pre>
+                    <code class="language-html" data-lang="html">
+                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card"</span> <span class="tag-light">style=</span><span class="text">"width: 287px"</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;img</span> <span class="tag-light">src=</span><span class="text">"..."</span> <span class="tag-light">style=</span><span class="text">"card-top-img"</span> <span class="tag-light">alt=</span><span class="text">"..."</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card-body"</span><span class="tag-dark">&gt;</span>
+                                <span class="tag-dark">&lt;h2</span> <span class="tag-light">class=</span><span class="text">"card-title"</span><span class="tag-dark">&gt;</span>Card Title<span class="tag-dark">&lt;/h2&gt;</span>
+                                <span class="tag-dark">&lt;p</span> <span class="tag-light">class=</span><span class="text">"card-text"</span><span class="tag-dark">&gt;</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has<span class="tag-dark">&lt;/p&gt;</span>
+                            <span class="tag-dark">&lt;/div&gt;</span>
                         <span class="tag-dark">&lt;/div&gt;</span>
-                    <span class="tag-dark">&lt;/div&gt;</span>
-                </code>
-            </pre>
-        </div>
-    </div><hr>
-
-    <center><h1>This is a Pricing Card</h1></center><br>
-    <div style="padding: 50px;">
-        <div class="card" style="width: 287px;">
-            <div class="card-body">
-                <h2 class="card-title">Udemy Course $150</h2>
-                <h3 class="card-subtitle mb-2 muted-text">What you will get</h3>
-                <ul class="card-ul">
-                    <li class="card-li">Life Time Access</li>
-                    <li class="card-li">E-Cerificate</li>
-                    <li class="card-li">Internships (paid/un-paid)</li>
-                    <li class="card-li">Any other offer</li>
-                </ul>
-                <a href="#" type="button" class="btn btn-sky btn-small w-100">Purchase</a><br>
-                <a href="#" type="button" class="btn btn-grass btn-small mt-1 w-100">Add to Cart</a>
+                    </code>
+                </pre>
             </div>
-        </div>
-        <div>
-            <pre>
-                <code class="language-html" data-lang="html">
-                    <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card"</span> <span class="tag-light">style=</span><span class="text">"width: 287px"</span><span class="tag-dark">&gt;</span>
-                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card-body"</span><span class="tag-dark">&gt;</span>
-                            <span class="tag-dark">&lt;h2</span> <span class="tag-light">class=</span><span class="text">"card-title"</span><span class="tag-dark">&gt;</span>Udemy Course $150<span class="tag-dark">&lt;/h2&gt;</span>
-                            <span class="tag-dark">&lt;h3</span> <span class="tag-light">class=</span><span class="text">"card-subtitle mb-2 muted-text"</span><span class="tag-dark">&gt;</span>What you will get<span class="tag-dark">&lt;/h3&gt;</span>
-                            <span class="tag-dark">&lt;ul</span> <span class="tag-light">class=</span><span class="text">"card-ul"</span><span class="tag-dark">&gt;</span>
-                                <span class="tag-dark">&lt;li</span> <span class="tag-light">class=</span><span class="text">"card-li"</span><span class="tag-dark">&gt;</span>Life Time Access<span class="tag-dark">&lt;/li&gt;</span>
-                                <span class="tag-dark">&lt;li</span> <span class="tag-light">class=</span><span class="text">"card-li"</span><span class="tag-dark">&gt;</span>E-Certificate<span class="tag-dark">&lt;/li&gt;</span>
-                                <span class="tag-dark">&lt;li</span> <span class="tag-light">class=</span><span class="text">"card-li"</span><span class="tag-dark">&gt;</span>Internships (paid/un-paid)<span class="tag-dark">&lt;/li&gt;</span>
-                                <span class="tag-dark">&lt;li</span> <span class="tag-light">class=</span><span class="text">"card-li"</span><span class="tag-dark">&gt;</span>Any other offer<span class="tag-dark">&lt;/li&gt;</span>
-                            <span class="tag-dark">&lt;/ul&gt;</span>
-                            <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky btn-small w-100"</span><span class="tag-dark">&gt;</span>Purchase<span class="tag-dark">&lt;/a&gt;</span><span class="tag-dark">&lt;br&gt;</span>
-                            <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-grass btn-small mt-1 w-100"</span><span class="tag-dark">&gt;</span>Purchase<span class="tag-dark">&lt;/a&gt;</span>
+        </div><hr>
+    </div>
+    
+    <div id="card4">
+        <center><h1>This is a Pricing Card</h1></center><br>
+        <div style="padding: 50px;">
+            <div class="card" style="width: 287px;">
+                <div class="card-body">
+                    <h2 class="card-title">Udemy Course $150</h2>
+                    <h3 class="card-subtitle mb-2 muted-text">What you will get</h3>
+                    <ul class="card-ul">
+                        <li class="card-li">Life Time Access</li>
+                        <li class="card-li">E-Cerificate</li>
+                        <li class="card-li">Internships (paid/un-paid)</li>
+                        <li class="card-li">Any other offer</li>
+                    </ul>
+                    <a href="#" type="button" class="btn btn-sky btn-small w-100">Purchase</a><br>
+                    <a href="#" type="button" class="btn btn-grass btn-small mt-1 w-100">Add to Cart</a>
+                </div>
+            </div>
+            <div>
+                <pre>
+                    <code class="language-html" data-lang="html">
+                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card"</span> <span class="tag-light">style=</span><span class="text">"width: 287px"</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"card-body"</span><span class="tag-dark">&gt;</span>
+                                <span class="tag-dark">&lt;h2</span> <span class="tag-light">class=</span><span class="text">"card-title"</span><span class="tag-dark">&gt;</span>Udemy Course $150<span class="tag-dark">&lt;/h2&gt;</span>
+                                <span class="tag-dark">&lt;h3</span> <span class="tag-light">class=</span><span class="text">"card-subtitle mb-2 muted-text"</span><span class="tag-dark">&gt;</span>What you will get<span class="tag-dark">&lt;/h3&gt;</span>
+                                <span class="tag-dark">&lt;ul</span> <span class="tag-light">class=</span><span class="text">"card-ul"</span><span class="tag-dark">&gt;</span>
+                                    <span class="tag-dark">&lt;li</span> <span class="tag-light">class=</span><span class="text">"card-li"</span><span class="tag-dark">&gt;</span>Life Time Access<span class="tag-dark">&lt;/li&gt;</span>
+                                    <span class="tag-dark">&lt;li</span> <span class="tag-light">class=</span><span class="text">"card-li"</span><span class="tag-dark">&gt;</span>E-Certificate<span class="tag-dark">&lt;/li&gt;</span>
+                                    <span class="tag-dark">&lt;li</span> <span class="tag-light">class=</span><span class="text">"card-li"</span><span class="tag-dark">&gt;</span>Internships (paid/un-paid)<span class="tag-dark">&lt;/li&gt;</span>
+                                    <span class="tag-dark">&lt;li</span> <span class="tag-light">class=</span><span class="text">"card-li"</span><span class="tag-dark">&gt;</span>Any other offer<span class="tag-dark">&lt;/li&gt;</span>
+                                <span class="tag-dark">&lt;/ul&gt;</span>
+                                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky btn-small w-100"</span><span class="tag-dark">&gt;</span>Purchase<span class="tag-dark">&lt;/a&gt;</span><span class="tag-dark">&lt;br&gt;</span>
+                                <span class="tag-dark">&lt;a</span> <span class="tag-light">href=</span><span class="text">"#"</span> <span class="tag-light">type=</span><span class="text">"button"</span> <span class="tag-light">class=</span><span class="text">"btn btn-grass btn-small mt-1 w-100"</span><span class="tag-dark">&gt;</span>Purchase<span class="tag-dark">&lt;/a&gt;</span>
+                            <span class="tag-dark">&lt;/div&gt;</span>
                         <span class="tag-dark">&lt;/div&gt;</span>
-                    <span class="tag-dark">&lt;/div&gt;</span>
-                </code>
-            </pre>
-        </div>
-    </div><hr>
+                    </code>
+                </pre>
+            </div>
+        </div><hr>
+    </div>
 
-    <center><h1>This is a Default Form</h1></center><br>
-    <div style="padding: 50px;">
-        <form>
-            <div class="form-collection">
-                <label for="Email-Input">Email Address</label>
-                <input type="email" class="form-control" id="firstEmailInput">
-                <small class="muted-text" id="yourPrivacyText">We never share your email with anyone else.</small>
+    <div id="form1">
+        <center><h1>This is a Default Form</h1></center><br>
+        <div style="padding: 50px;">
+            <form>
+                <div class="form-collection">
+                    <label for="Email-Input">Email Address</label>
+                    <input type="email" class="form-control" id="firstEmailInput">
+                    <small class="muted-text" id="yourPrivacyText">We never share your email with anyone else.</small>
+                </div>
+                <div class="form-collection">
+                    <label for="Password-Input">Password</label>
+                    <input type="password" class="form-control" id="firstPasswordInput">
+                </div>
+                <div class="form-collection">
+                    <input type="checkbox">
+                    <label for="formCheckBox">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-sky">Submit</button>
+            </form>
+            <div>
+                <pre>
+                    <code class="language-html" data-lang="html">
+                        <span class="tag-dark">&lt;form&gt;</span>
+                            <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"form-collection"</span><span class="tag-dark">&gt;</span>
+                                <span class="tag-dark">&lt;label</span> <span class="tag-light">for=</span><span class="text">"Email-Input"</span><span class="tag-dark">&gt;</span>Email Address<span class="tag-dark">&lt;/label&gt;</span>
+                                <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
+                                <span class="tag-dark">&lt;small</span> <span class="tag-light">class=</span><span class="text">"muted-text"</span> <span class="tag-light">id=</span><span class="text">"yourPrivacyText"</span><span class="tag-dark">&gt;</span>We never share your email with anyone.<span class="tag-dark">&lt;/small&gt;</span>
+                            <span class="tag-dark">&lt;/div</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"form-collection"</span><span class="tag-dark">&gt;</span>
+                                <span class="tag-dark">&lt;label</span> <span class="tag-light">for=</span><span class="text">"Password-Input"</span><span class="tag-dark">&gt;</span>Email Address<span class="tag-dark">&lt;/label&gt;</span>
+                                <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"password"</span> <span class="tag-light">class=</span><span class="text">"form-controll"</span> <span class="tag-light">id=</span><span class="text">"firstPasswordInput"</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;/div</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"form-collection"</span><span class="tag-dark">&gt;</span>
+                                <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"checkbox"</span><span class="tag-dark">&gt;</span>
+                                <span class="tag-dark">&lt;label</span> <span class="tag-light">for=</span><span class="text">"formCheckBox"</span><span class="tag-dark">&gt;</span>Check me out<span class="tag-dark">&lt;/label&gt;</span>
+                            <span class="tag-dark">&lt;/div</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"submit"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Submit<span class="tag-dark">&lt;/button&gt;</span>        
+                        <span class="tag-dark">&lt;/form&gt;</span>
+                    </code>
+                </pre>
             </div>
-            <div class="form-collection">
-                <label for="Password-Input">Password</label>
-                <input type="password" class="form-control" id="firstPasswordInput">
-            </div>
-            <div class="form-collection">
-                <input type="checkbox">
-                <label for="formCheckBox">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-sky">Submit</button>
-        </form>
-        <div>
-            <pre>
-                <code class="language-html" data-lang="html">
-                    <span class="tag-dark">&lt;form&gt;</span>
-                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"form-collection"</span><span class="tag-dark">&gt;</span>
-                            <span class="tag-dark">&lt;label</span> <span class="tag-light">for=</span><span class="text">"Email-Input"</span><span class="tag-dark">&gt;</span>Email Address<span class="tag-dark">&lt;/label&gt;</span>
-                            <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
-                            <span class="tag-dark">&lt;small</span> <span class="tag-light">class=</span><span class="text">"muted-text"</span> <span class="tag-light">id=</span><span class="text">"yourPrivacyText"</span><span class="tag-dark">&gt;</span>We never share your email with anyone.<span class="tag-dark">&lt;/small&gt;</span>
-                        <span class="tag-dark">&lt;/div</span><span class="tag-dark">&gt;</span>
-                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"form-collection"</span><span class="tag-dark">&gt;</span>
-                            <span class="tag-dark">&lt;label</span> <span class="tag-light">for=</span><span class="text">"Password-Input"</span><span class="tag-dark">&gt;</span>Email Address<span class="tag-dark">&lt;/label&gt;</span>
-                            <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"password"</span> <span class="tag-light">class=</span><span class="text">"form-controll"</span> <span class="tag-light">id=</span><span class="text">"firstPasswordInput"</span><span class="tag-dark">&gt;</span>
-                        <span class="tag-dark">&lt;/div</span><span class="tag-dark">&gt;</span>
-                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"form-collection"</span><span class="tag-dark">&gt;</span>
-                            <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"checkbox"</span><span class="tag-dark">&gt;</span>
-                            <span class="tag-dark">&lt;label</span> <span class="tag-light">for=</span><span class="text">"formCheckBox"</span><span class="tag-dark">&gt;</span>Check me out<span class="tag-dark">&lt;/label&gt;</span>
-                        <span class="tag-dark">&lt;/div</span><span class="tag-dark">&gt;</span>
-                        <span class="tag-dark">&lt;button</span> <span class="tag-light">type=</span><span class="text">"submit"</span> <span class="tag-light">class=</span><span class="text">"btn btn-sky"</span><span>&gt;</span>Submit<span class="tag-dark">&lt;/button&gt;</span>        
-                    <span class="tag-dark">&lt;/form&gt;</span>
-                </code>
-            </pre>
-        </div>
-    </div><hr>
+        </div><hr>
+    </div>
 
-    <center><h1>This is a Form with Sizing Input</h1></center><br>
-    <div style="padding: 50px;">
-        <form>
-            <div class="form-collection">
-                <label for="Email-Input">Input Field (with 100% width)</label>
-                <input type="email" class="form-control w-100" id="firstEmailInput">
+    <div id="form2">
+        <center><h1>This is a Form with Sizing Input</h1></center><br>
+        <div style="padding: 50px;">
+            <form>
+                <div class="form-collection">
+                    <label for="Email-Input">Input Field (with 100% width)</label>
+                    <input type="email" class="form-control w-100" id="firstEmailInput">
+                </div>
+                <div class="form-collection">
+                    <label for="Email-Input">Input Field (with 75% width)</label>
+                    <input type="email" class="form-control w-75" id="firstEmailInput">
+                </div>
+                <div class="form-collection">
+                    <label for="Email-Input">Input Field (with 50% width)</label>
+                    <input type="email" class="form-control w-50" id="firstEmailInput">
+                </div>
+                <div class="form-collection">
+                    <label for="Email-Input">Input Field (with 25% width)</label>
+                    <input type="email" class="form-control w-25" id="firstEmailInput">
+                </div>
+            </form>
+            <div>
+                <pre>
+                    <code class="language-html" data-lang="html">
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-100"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-75"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-50"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-25"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
+                    </code>
+                </pre>
             </div>
-            <div class="form-collection">
-                <label for="Email-Input">Input Field (with 75% width)</label>
-                <input type="email" class="form-control w-75" id="firstEmailInput">
-            </div>
-            <div class="form-collection">
-                <label for="Email-Input">Input Field (with 50% width)</label>
-                <input type="email" class="form-control w-50" id="firstEmailInput">
-            </div>
-            <div class="form-collection">
-                <label for="Email-Input">Input Field (with 25% width)</label>
-                <input type="email" class="form-control w-25" id="firstEmailInput">
-            </div>
-        </form>
-        <div>
-            <pre>
-                <code class="language-html" data-lang="html">
-                    <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-100"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
-                    <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-75"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
-                    <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-50"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
-                    <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-25"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
-                </code>
-            </pre>
-        </div>
-    </div><hr>
+        </div><hr>
+    </div>
 
 
 <br><br><br>
