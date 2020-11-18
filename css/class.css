@@ -427,7 +427,7 @@
     margin-bottom: 16px;
 }
 
-.form-control {
+.form-control, .form-control-large, .form-control-small {
     display: block;
     width: 100%;
     height: 24px;
@@ -448,4 +448,28 @@
     border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-  }
+}
+.form-control-large {
+    height: 30px;
+    padding: 8px 16px;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 5px;
+}
+.form-control-small {
+    height: 21px;
+    padding: 4px 8px;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 3px;
+}
+.form-control-range {
+    display: block;
+    width: 100%;
+}
+.form-check-label {
+    margin-bottom: 0;
+} 
+.form-check-label-disabled{
+    color: rgb(108,117,125);
+}

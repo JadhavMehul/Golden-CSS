@@ -72,7 +72,9 @@
                 <td>Form
                     <ul>
                         <li><a href="#form1">Default Form</a></li>
-                        <li><a href="#form2">Form With Sizing Input</a></li>
+                        <li><a href="#form2">Input File</a></li>                        
+                        <li><a href="#form3">Input Width Sizing</a></li>
+                        <li><a href="#form4">Input Sizing</a></li>
                     </ul>
                 </td>
                 <td></td>
@@ -553,6 +555,30 @@
     </div>
 
     <div id="form2">
+        <center><h1>Input File</h1></center><br>
+        <div style="padding: 50px;">
+            <form>
+                <div class="form-collection">
+                    <label for="File-Input">Picture</label>
+                    <input type="file" class="form-control">
+                </div>
+            </form>
+        </div>
+        <div>
+            <pre>
+                <code class="language-html" data-lang="html">
+                    <span class="tag-dark">&lt;form&gt;</span>
+                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"form-collection"</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;label</span> <span class="tag-light">for=</span><span class="text">"File-Input"</span><span class="tag-dark">&gt;</span>Picture<span class="tag-dark">&lt;/label&gt;</span>
+                            <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"file"</span> <span class="tag-light">class=</span><span class="text">"form-controll"</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;/div</span><span class="tag-dark">&gt;</span>
+                    <span class="tag-dark">&lt;/form&gt;</span>
+                </code>
+            </pre>
+        </div>
+    </div><hr>
+
+    <div id="form3">
         <center><h1>This is a Form with Sizing Input</h1></center><br>
         <div style="padding: 50px;">
             <form>
@@ -576,16 +602,98 @@
             <div>
                 <pre>
                     <code class="language-html" data-lang="html">
-                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-100"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
-                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-75"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
-                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-50"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
-                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"email"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-25"</span> <span class="tag-light">id=</span><span class="text">"firstEmailInput"</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"text"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-100"</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"text"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-75"</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"text"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-50"</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"text"</span> <span class="tag-light">class=</span><span class="text">"form-controll w-25"</span><span class="tag-dark">&gt;</span>
                     </code>
                 </pre>
             </div>
         </div><hr>
     </div>
 
+    <div id="form4">
+        <center><h1>Multiple Size Input</h1></center><br>
+        <div style="padding: 50px;">
+            <form>
+                <div class="form-collection">
+                    <label>Large Input</label>
+                    <input type="text" class="form-control-large" placeholder="Large Input">
+                </div>
+                <div class="form-collection">
+                    <label>Input</label>
+                    <input type="text" class="form-control" placeholder="Input">
+                </div>
+                <div class="form-collection">
+                    <label>Small Input</label>
+                    <input type="text" class="form-control-small" placeholder="Small Input">
+                </div>
+            </form>
+            <div>
+                <pre>
+                    <code class="language-html" data-lang="html">
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"text"</span> <span class="tag-light">class=</span><span class="text">"form-controll-large"</span> <span class="tag-light">placeholder=</span><span class="text">"Large Input"</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"text"</span> <span class="tag-light">class=</span><span class="text">"form-controll"</span> <span class="tag-light">placeholder=</span><span class="text">"Input"</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"text"</span> <span class="tag-light">class=</span><span class="text">"form-controll-small"</span> <span class="tag-light">placeholder=</span><span class="text">"Small Input"</span><span class="tag-dark">&gt;</span>
+                    </code>
+                </pre>
+            </div>
+        </div><hr>
+    </div>
+
+    <div id="form5">
+        <center><h1>Range Input</h1></center><br>
+        <div style="padding: 50px;">
+            <form>
+                <div class="form-collection">
+                    <label for="Range-Input">Input Field (with 100% width)</label>
+                    <input type="range" class="form-control-range" id="formControlRange">
+                </div>
+                <div class="form-collection">
+                    <label for="Range-Input">Input Field (with 75% width)</label>
+                    <input type="range" class="form-control-range w-75" id="formControlRange">
+                </div>
+                <div class="form-collection">
+                    <label for="Range-Input">Input Field (with 50% width)</label>
+                    <input type="range" class="form-control-range w-50" id="formControlRange">
+                </div>
+                <div class="form-collection">
+                    <label for="Range-Input">Input Field (with 25% width)</label>
+                    <input type="range" class="form-control-range w-25" id="formControlRange">
+                </div>
+            </form>
+            <div>
+                <pre>
+                    <code class="language-html" data-lang="html">
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"range"</span> <span class="tag-light">class=</span><span class="text">"form-controll-range"</span> <span class="tag-light">id=</span><span class="text">"formControlRange"</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"range"</span> <span class="tag-light">class=</span><span class="text">"form-controll-range w-75"</span> <span class="tag-light">id=</span><span class="text">"formControlRange"</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"range"</span> <span class="tag-light">class=</span><span class="text">"form-controll-range w-50"</span> <span class="tag-light">id=</span><span class="text">"formControlRange"</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"range"</span> <span class="tag-light">class=</span><span class="text">"form-controll-range w-25"</span> <span class="tag-light">id=</span><span class="text">"formControlRange"</span><span class="tag-dark">&gt;</span>
+                    </code>
+                </pre>
+            </div>
+        </div><hr>
+    </div>
+
+    <div id="form6">
+        <center><h1>Check Box</h1></center><br>
+        <div style="padding: 50px;">
+            <form>
+                <div class="form-collection">
+                    <input type="checkbox" value="" id="defaultCheck1" checked>
+                    <label class="form-check-label" for="checkedCheck">Checked checkbox</label>
+                </div>
+                <div class="form-conllection mb-3">
+                    <input type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck">Default checkbox</label>
+                </div>
+                <div class="form-conllection">
+                    <input type="checkbox" value="" id="defaultCheck1" disabled>
+                    <label class="form-check-label-disabled" for="disabledCheck">Disabled checkbox</label>
+                </div>
+            </form>
+        </div>
+    </div>
 
 <br><br><br>
 </body>
