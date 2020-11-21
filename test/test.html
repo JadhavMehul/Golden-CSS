@@ -75,6 +75,8 @@
                         <li><a href="#form2">Input File</a></li>                        
                         <li><a href="#form3">Input Width Sizing</a></li>
                         <li><a href="#form4">Input Sizing</a></li>
+                        <li><a href="#form5">Input Range</a></li>
+                        <li><a href="#form6">Checkbox and Radio Button</a></li> 
                     </ul>
                 </td>
                 <td></td>
@@ -692,6 +694,57 @@
                     <label class="form-check-label-disabled" for="disabledCheck">Disabled checkbox</label>
                 </div>
             </form>
+            <div>
+                <pre>
+                    <code class="language-html" data-lang="html">
+                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"form-collection"</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"checkbox"</span> <span class="tag-light">value=</span><span class="text">""</span> <span class="tag-light">id=</span><span class="text">"checkedCheckBox"</span> <span class="tag-light">checked</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;label</span> <span class="tag-light">class=</span><span class="text">"form-check-label"</span> <span class="tag-light">for=</span><span class="text">"checkedCheckBox"</span> <span class="tag-dark">&gt;</span>Checked Checkbox<span class="tag-dark">&lt;</span><span class="tag-dark">/label</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;/div</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"form-collection"</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"checkbox"</span> <span class="tag-light">value=</span><span class="text">""</span> <span class="tag-light">id=</span><span class="text">"defaultCheck"</span><span class="tag-light"></span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;label</span> <span class="tag-light">class=</span><span class="text">"form-check-label"</span> <span class="tag-light">for=</span><span class="text">"defaultCheckBox"</span> <span class="tag-dark">&gt;</span>Default Checkbox<span class="tag-dark">&lt;</span><span class="tag-dark">/label</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;/div</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"form-collection"</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"checkbox"</span> <span class="tag-light">value=</span><span class="text">""</span> <span class="tag-light">id=</span><span class="text">"desabledCheckbox"</span> <span class="tag-light">disabled</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;label</span> <span class="tag-light">class=</span><span class="text">"form-check-label"</span> <span class="tag-light">for=</span><span class="text">"disabledCheckBox"</span> <span class="tag-dark">&gt;</span>Disabled Checkbox<span class="tag-dark">&lt;</span><span class="tag-dark">/label</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;/div</span><span class="tag-dark">&gt;</span>
+                    </code>
+                </pre>
+            </div>
+            <center><h1>Radio Button</h1></center><br>
+            <form>
+                <div class="form-collection">
+                    <input type="radio" value="" id="defaultCheck1" checked>
+                    <label class="form-radio-label" for="checkedCheck">Checked Radio Button</label>
+                </div>
+                <div class="form-conllection mb-3">
+                    <input type="radio" value="" id="defaultCheck1">
+                    <label class="form-radio-label" for="defaultCheck">Default Radio Button</label>
+                </div>
+                <div class="form-conllection">
+                    <input type="radio" value="" id="defaultCheck1" disabled>
+                    <label class="form-radio-label-disabled" for="disabledCheck">Disabled Radio Button</label>
+                </div>
+            </form>
+            <div>
+                <pre>
+                    <code class="language-html" data-lang="html">
+                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"form-collection"</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"radio"</span> <span class="tag-light">value=</span><span class="text">""</span> <span class="tag-light">id=</span><span class="text">"checkedRadioButton"</span> <span class="tag-light">checked</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;label</span> <span class="tag-light">class=</span><span class="text">"form-radio-label"</span> <span class="tag-light">for=</span><span class="text">"checkedRadioButton"</span> <span class="tag-dark">&gt;</span>Checked Radio Button<span class="tag-dark">&lt;</span><span class="tag-dark">/label</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;/div</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"form-collection"</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"radio"</span> <span class="tag-light">value=</span><span class="text">""</span> <span class="tag-light">id=</span><span class="text">"defaultRadioButton"</span><span class="tag-light"></span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;label</span> <span class="tag-light">class=</span><span class="text">"form-radio-label"</span> <span class="tag-light">for=</span><span class="text">"defaultRadioButton"</span> <span class="tag-dark">&gt;</span>Default Radio Button<span class="tag-dark">&lt;</span><span class="tag-dark">/label</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;/div</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;div</span> <span class="tag-light">class=</span><span class="text">"form-collection"</span><span class="tag-dark">&gt;</span>    
+                            <span class="tag-dark">&lt;input</span> <span class="tag-light">type=</span><span class="text">"radio"</span> <span class="tag-light">value=</span><span class="text">""</span> <span class="tag-light">id=</span><span class="text">"disabledRadioButton"</span> <span class="tag-light">disabled</span><span class="tag-dark">&gt;</span>
+                            <span class="tag-dark">&lt;label</span> <span class="tag-light">class=</span><span class="text">"form-radio-label"</span> <span class="tag-light">for=</span><span class="text">"disabledRadioButton"</span> <span class="tag-dark">&gt;</span>Disabled Radio Button<span class="tag-dark">&lt;</span><span class="tag-dark">/label</span><span class="tag-dark">&gt;</span>
+                        <span class="tag-dark">&lt;/div</span><span class="tag-dark">&gt;</span>
+                    </code>
+                </pre>
+            </div>
         </div>
     </div>
 

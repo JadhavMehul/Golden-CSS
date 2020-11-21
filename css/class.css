@@ -467,9 +467,9 @@
     display: block;
     width: 100%;
 }
-.form-check-label {
+.form-check-label, .form-radio-label {
     margin-bottom: 0;
 } 
-.form-check-label-disabled{
+.form-check-label-disabled, .form-radio-label-disabled{
     color: rgb(108,117,125);
 }
