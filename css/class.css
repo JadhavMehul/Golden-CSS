@@ -580,10 +580,6 @@
 .list-collection-item + .list-collection-item {
     border-top-width: 0;
 }
-.list-collection-item-sky {
-    color: rgb(0, 64, 133);
-    background-color: rgb(184, 218, 255);
-}
 .list-collection-item.active {
     z-index: 2;
     color: rgb(255, 255, 255);
@@ -594,4 +590,40 @@
     margin-top: -1px;
     border-top-width: 1px;
     border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.list-collection-item-sky {
+    color: rgb(0, 64, 133);
+    background-color: rgb(184, 218, 255);
+}
+.list-collection-item-stone {
+    color: rgb(56, 61, 65);
+    background-color: rgb(214, 216, 219);
+}
+.list-collection-item-grass {
+    color: rgb(21, 87, 36);
+    background-color: rgb(194, 229, 202);
+}
+.list-collection-item-stop {
+    color: rgb(114, 28, 36);
+    background-color: rgb(245, 198, 203);
+}
+.list-collection-item-warning {
+    color: rgb(133, 100, 4);
+    background-color: rgb(255, 238, 186);
+} 
+.list-collection-item-orange {
+    color: rgb(245, 118, 4);
+    background-color: rgb(255, 201, 139);
+} 
+.list-collection-item-info {
+    color: rgb(12, 84, 96);
+    background-color: rgb(190, 229, 235);
+}
+.list-collection-item-light {
+    color: rgb(129, 129, 130);
+    background-color: rgb(253, 253, 254);
+}
+.list-collection-item-dark {
+    color: rgb(27, 30, 33);
+    background-color: rgb(198, 200, 202);
 }
