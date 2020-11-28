@@ -525,6 +525,26 @@
     margin-left: auto;
 }
 
+/*----------------Galaxy S5----------------*/
+@media (min-device-width: 355px) and (max-device-width: 365px) {
+    .container {
+        max-width: 330px;
+    }
+}
+
+/*----------------Pixel 2 / Pixel 2XL----------------*/
+@media (min-device-width: 410px) and (max-device-width: 415px) {
+    .container {
+        max-width: 381px;
+    }
+}
+/*----------------iPhone X----------------*/
+@media (min-device-width: 374px) and (max-device-width: 380px) {
+    .container {
+        max-width: 345px;
+    }
+}
+
 
 @media (min-width: 576px) {
     .container {

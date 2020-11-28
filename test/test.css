@@ -22,4 +22,8 @@ th{
     color: white;
     font-size: 50px;
     transform: rotate(90deg);
+    display: none;
 }
+/* .language-html{
+    display: none;
+} */
