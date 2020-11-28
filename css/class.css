@@ -459,7 +459,7 @@
 
 .form-control, .form-control-large, .form-control-small {
     display: block;
-    width: 100%;
+    width: calc(100% - 27px);
     height: 24px;
     padding: 6px 12px;
     font-size: 16px;
@@ -481,14 +481,14 @@
 }
 .form-control-large {
     height: 30px;
-    padding: 8px 16px;
+    padding: 8px 12px;
     font-size: 20px;
     line-height: 24px;
     border-radius: 5px;
 }
 .form-control-small {
     height: 21px;
-    padding: 4px 8px;
+    padding: 4px 12px;
     font-size: 14px;
     line-height: 24px;
     border-radius: 3px;
