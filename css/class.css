@@ -4,6 +4,27 @@
 .muted-text {
     color: rgb(108,117,125) !important;
 }
+.d-flex{
+    display: flex !important;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+.align-items-start {
+    align-items: flex-start !important;
+}
+
+.align-items-end {
+    align-items: flex-end !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
 /*--------------------Width--------------------*/
 
 .w-25 {
@@ -217,6 +238,10 @@
     cursor: default;
 }
 
+.plate-sm{
+    
+}
+
 .plate-sky{
     color: white;
     background-color: rgb(0, 123, 225);
@@ -258,7 +283,9 @@
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 160px;
-  }
+}
+
+
 
 /*--------------------Button--------------------*/
 .btn{
@@ -646,4 +673,23 @@
 .list-collection-item-dark {
     color: rgb(27, 30, 33);
     background-color: rgb(198, 200, 202);
+}
+
+.list-collection-item-action {
+    width: 100%;
+    color: rgb(73, 80, 87);
+    text-align: inherit;
+}
+  
+.list-collection-item-action:hover {
+    z-index: 1;
+    color: rgb(73, 80, 87);
+    text-decoration: none;
+    background-color: rgb(248, 249, 250);
+    cursor: pointer;
+}
+.list-collection-item-action.active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 123, 255);
+    border-color: rgb(0, 123, 255);
 }
